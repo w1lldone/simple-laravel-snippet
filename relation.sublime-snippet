@@ -1,7 +1,7 @@
 <snippet>
 	<content><![CDATA[
 public function ${1:method}(){
-	return \$this->${2:relation}('${3:App\Role}'${4:${5:, '${6:role_user_table}'}${7:, '${8:user_id}'}${9:, '${10:role_id}'}});
+	return \$this->${2:relation}('${3:App\Role}'${4:${5:, '${6:role_user_table}'}${7:, '${8:foreign_key}'}${9:, '${10:local_key}'}});
 }
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
