@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+Route::group(['prefix' => '${1:prefix}'], function(){
+	${2:Route}
+});
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>Route:prefix</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php</scope>
+</snippet>
