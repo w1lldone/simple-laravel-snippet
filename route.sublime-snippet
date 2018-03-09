@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-Route::${1:get}('${2:/}', '${3:SomeController}@${4:action}');
+Route::${1:get}('${2:/}', '${3:SomeController}@${4:action}')${5:->name('${6:route.name}')};
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>Route</tabTrigger>
